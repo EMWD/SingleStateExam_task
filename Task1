@@ -1,0 +1,11 @@
+A list of plane points with integer coordinates is given. It is necessary to determine:
+
+1) the number of the coordinate quarter K, which is the most points;
+
+2) point A in this quarter, the least distant from the axes of coordinates;
+
+3) the distance R from this point to the nearest axis.
+
+If the same number of points is located in several quarters, you should choose the quarter in which the value of R is smaller. If both the number of points and the value of R are equal, it is necessary to choose a quarter with a smaller number K. If there are several points in the selected quarter at the same minimum distance from the coordinate axes, you must select the first one in the list. Points, at least one of whose coordinates is equal to zero, are considered not to belong to a single quarter and are not considered.
+
+Write an effective, including memory, program that will solve this problem. Before the text of the program, briefly describe the algorithm for solving the problem and indicate the programming language used and its version.
